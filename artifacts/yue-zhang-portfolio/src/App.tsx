@@ -1,6 +1,6 @@
 import { ArrowDownToLine, ArrowRight, ArrowUpRight, BookOpen, FileText, GraduationCap, Mail, Menu, X } from 'lucide-react';
 import { useState } from 'react';
-import { Link, Route, Switch, useLocation } from 'wouter';
+import { Link, Route, Router as WouterRouter, Switch, useLocation } from 'wouter';
 import profilePhoto from './assets/profile-photo.jpg';
 import featuredFigure from './assets/featured-figure.png';
 
@@ -8,7 +8,7 @@ const email = 'zhan1600@msu.edu';
 const scholar = 'https://scholar.google.com/citations?user=BodxIHkAAAAJ&hl=en&oi=ao';
 const linkedin = 'https://www.linkedin.com/in/yue-zhang-29432b1b9/';
 const paper = 'https://doi.org/10.1145/3579505';
-const cvPath = '/cv.pdf';
+const cvPath = `${import.meta.env.BASE_URL}cv.pdf`;
 
 const navItems = [
   { href: '/', label: 'About' },
@@ -336,14 +336,18 @@ function NotFound() {
 }
 
 function App() {
-  return <Switch>
-    <Route path="/" component={Home} />
-    <Route path="/research" component={Research} />
-    <Route path="/teaching" component={Teaching} />
-    <Route path="/cv" component={CV} />
-    <Route path="/contact" component={Contact} />
-    <Route component={NotFound} />
-  </Switch>;
+  return (
+    <WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, '')}>
+      <Switch>
+        <Route path="/" component={Home} />
+        <Route path="/research" component={Research} />
+        <Route path="/teaching" component={Teaching} />
+        <Route path="/cv" component={CV} />
+        <Route path="/contact" component={Contact} />
+        <Route component={NotFound} />
+      </Switch>
+    </WouterRouter>
+  );
 }
 
 export default App;
