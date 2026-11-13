@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Yue Zhang — Academic Portfolio"
+description = "A professional academic portfolio for Yue Zhang, featuring her research, teaching, CV, and contact information."
+version = "1.0.0"
+id = "artifacts/yue-zhang-portfolio"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25135
+
+[services.development]
+run = "pnpm --filter @workspace/yue-zhang-portfolio run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/yue-zhang-portfolio", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/yue-zhang-portfolio/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25135"
+BASE_PATH = "/"

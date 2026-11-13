@@ -1,0 +1,47 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "pb9pg69EdkgQAmznO8wuz"
+uri = "file://.local/conversation-workspace/files/completed-replit-prompt.txt"
+type = "text"
+title = "Completed academic website prompt"
+description = "Filled from the latest CV, bio, study, and figure. The prompt flags the paper’s inconsistent participant count and preserves both original figure captions."
+logical_id = "cb312f8d-bf80-4d2f-945a-e310a5840f34"
+content_hash = "sha256:32af4d7530d9f7c94c1b13d4319b5b1b96fdf4dd4866dce8ed458c3bda395c7e"
+size = 7489
+mtime_ms = 1794596536161
+storage_uri = "gcs://replit-rams-assets-janeway/rams/assets/conversation:5a7f7f36-26da-4f3d-8d61-5061e9faa1f9/cb312f8d-bf80-4d2f-945a-e310a5840f34/badd9c28-031c-4e0a-b680-54addbfb3b4f"
+storage_version_token = "1794596536617852"
+content_type = "text/plain"
+source_uri = "file://completed-replit-prompt.txt"
+
+[[outputs]]
+id = "BjuRLjEpaCqQG3CrUhxFz"
+uri = "file://.local/conversation-workspace/files/featured-figure.png"
+type = "image"
+title = "Featured Study Figure 2"
+description = "Original Figure 2 extracted from the uploaded article at its embedded 1500 × 875 resolution. The caption is included in the completed prompt."
+logical_id = "5869332e-417c-4e34-961e-4612e88aba3a"
+content_hash = "sha256:6bcac64c6040ef0f76d87cb13fbab25973fa7d7741b5dd5d0e925f49fc0a2e99"
+size = 216382
+mtime_ms = 1794596134247
+storage_uri = "gcs://replit-rams-assets-janeway/rams/assets/conversation:5a7f7f36-26da-4f3d-8d61-5061e9faa1f9/5869332e-417c-4e34-961e-4612e88aba3a/d9173871-026a-48ca-8f87-04ed9abf5a64"
+storage_version_token = "1794596144647224"
+content_type = "image/png"
+source_uri = "file://featured-figure.png"
+
+[[outputs]]
+id = "Gk_xkM_EQNF9f4w8hOttQ"
+uri = "file://.local/conversation-workspace/files/website-plan-workshop-ready.txt"
+type = "text"
+title = "Workshop-ready website plan and prompt"
+description = "Preserves your four-page plan, Teaching page, and navy/teal design; corrects the research overview and flags the paper’s sample-count discrepancy."
+logical_id = "5f1bd280-a086-4a93-b523-413e21231696"
+content_hash = "sha256:844aba8ef664b6441ace903ecf82d2349514b11def10ec395ac5a4f335b06ed5"
+size = 8175
+mtime_ms = 1794597094751
+storage_uri = "gcs://replit-rams-assets-janeway/rams/assets/conversation:5a7f7f36-26da-4f3d-8d61-5061e9faa1f9/5f1bd280-a086-4a93-b523-413e21231696/385589b6-2c80-43df-bce4-85d5972fb02f"
+storage_version_token = "1794597095241986"
+content_type = "text/plain"
+source_uri = "file://website-plan-workshop-ready.txt"

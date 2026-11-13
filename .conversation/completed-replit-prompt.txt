@@ -1,0 +1,103 @@
+Replit Prompt Template
+Replace every yellow highlighted field before the workshop. The rest of the wording can remain unchanged. You only need to bring this prompt to the workshop. No further actions needed.
+Project request
+Build a professional, responsive, multi-page academic personal website for me using the materials I uploaded to this Replit project.
+My information
+Name: Yue Zhang
+Current position and institution: Ph.D. Candidate, Department of Communication, Michigan State University
+Website structure
+Create a multi-page website with separate pages for:
+1. About
+2. Research
+3. CV
+4. Contact
+Additional pages: None
+Use the About page as the main homepage.
+Include a consistent navigation menu on every page. The website name or logo in the navigation bar should return visitors to the About page.
+About page
+Use my uploaded profile image as the main professional photograph.
+Use about-information.docx to create the page content. The page should include:
+• My name and current position
+• My institutional affiliation
+• A short professional biography
+• My primary research areas
+• A concise introduction to my research program
+• Links to my professional profiles
+• A button that directs visitors to the Research page
+• A button to download my CV
+Present my research interests in an attractive, easy-to-scan format. My main research areas include Interpersonal, family, and health communication; supportive communication; support gaps; communal coping; goal coordination; AI-mediated support.
+Research page
+Create a rich Research page rather than displaying only a short list of publications.
+Begin with a brief overview explaining that My research asks how interpersonal, family, and health communication helps people cope with stress, give and receive support, and coordinate goals in ways that shape relationships, health, and well-being.. Organize my research into clear themes based on the information in my CV and About document.
+Create a prominent Featured Study section using featured-study.pdf.
+The featured study is Mediated Social Support for Distress Reduction: AI Chatbots vs. Human. Its DOI is https://doi.org/10.1145/3579505. Present it as an accessible research story rather than simply reproducing the paper abstract.
+Before writing the Featured Study section, read featured-study.pdf and extract:
+• The study title
+• The research purpose or central question
+• The study design, method, and sample
+• The major findings
+• Why the study matters
+Use only information supported by the uploaded paper. Do not invent or change findings, statistics, sample sizes, methods, or citations. The paper’s participant accounting is inconsistent: it reports 75 recruited and condition counts of 22/23/30, but also says 76 participated and one was excluded. Flag this discrepancy when reporting the sample rather than silently reconciling it. If anything else is unclear, use a clearly labeled placeholder or ask me before adding it.
+The Featured Study section should include:
+• Study title
+• Brief overview
+• Central research question
+• Why the topic matters
+• Study design and participants
+• Major findings
+• Theoretical and practical implications
+• A short takeaway for a general academic audience
+• A link to the paper or publication, if available
+Use featured-figure.png in this section exactly as supplied. It includes Table 1 and Fig. 2. Preserve both original captions verbatim: “Table 1. The effect of the Support Provider Type on Cognitive Appraisal and Emotional Validation” and “Fig. 2. The Effects of Support Sources on Psychological Processes. Expert means the high-contingent chatbot and novice means the low-contingent chatbot.” Provide a short, plain-language explanation of what Fig. 2 shows.
+Do not alter the figure or invent captions. The original captions are visible inside the image; do not duplicate them if they remain embedded. Make sure the figure remains readable on desktop and mobile screens.
+Below the Featured Study section, create a Selected Publications section using information from my CV. Organize publications by topic or research area when appropriate. Do not limit the page to only three publications if the CV provides additional relevant work.
+Only include publication information found in my uploaded materials. Do not invent titles, authors, journal names, dates, findings, statistics, or links.
+After building the Research page, show me a short verification list containing the study title, method and sample, key findings, and figure caption so I can compare them with the original paper.
+CV page
+Use cv.pdf.
+Create:
+• A short introduction
+• An embedded CV viewer if it works reliably
+• A clearly visible Download CV button
+• A backup link that opens the PDF in a new browser tab
+Do not manually rewrite the entire CV on this page.
+Contact page
+Use the contact information and professional links provided in about-information.docx.
+Include:
+• Institutional email address
+• Department and university affiliation
+• Google Scholar
+• ORCID
+• LinkedIn
+• ResearchGate, lab website, or other professional link, if provided
+Make email addresses and professional links clickable.
+Do not create a working contact form that requires a server or database. A simple email button is sufficient for this first version.
+Design instructions
+Use a clean, professional academic design inspired by A personal academic portfolio inspired by Michigan State University’s scholarly visual identity, without presenting the site as official.
+My preferred colors are: Michigan State green, white, charcoal, and restrained warm-neutral accents
+My design reference is: A clean academic portfolio with restrained MSU-green accents, generous white space, readable typography, and clear research storytelling; no specific website URL
+The website should feel professional, scholarly, modern, welcoming, accessible.
+Use the design reference for general inspiration, but do not copy another website exactly or imply that the website is an official university website.
+Use:
+• Generous white space
+• Clear page headings
+• Readable typography
+• Subtle section dividers
+• Professional cards or panels where appropriate
+• Large, readable research figures
+• Minimal and purposeful visual effects
+Avoid excessive animations, decorative graphics, gradients, or a corporate marketing style.
+Technical and usability requirements
+• Create only the frontend for this first version.
+• Do not create an admin login, backend, database, or API integration.
+• Use consistent navigation and styling across every page.
+• Make the website responsive on desktop, tablet, and mobile screens.
+• Use accessible color contrast and readable font sizes.
+• Add descriptive alternative text to all images.
+• Make all email addresses and external links clickable.
+• Make sure the CV download button and navigation links work.
+• Preserve all uploaded source files in the project.
+• Use the uploaded materials as the authoritative sources.
+• Do not invent or change degrees, positions, publications, research findings, statistics, citations, professional links, or biographical information.
+• If important information is missing or unclear, use a clearly labeled placeholder or ask me for clarification.
+• Run the website and show me the completed first version in Replit Preview.
